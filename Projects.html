@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Cool Website</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Pacifico" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  .button {
+   border-top: 0px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #6B6661,#d8ab6c);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5.5px 60px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #286090;
+   font-size: 23px;
+   font-family: 'Courgette', serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin: 25px;
+
+ }
+ .button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+ }
+ .button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+ }
+ body{
+  color: green;
+  background-size: 100%;
+  background-image: url(https://static.pexels.com/photos/1510/road-sky-sand-street.jpg);
+}
+a{
+  font-size: 1.2em;
+  font-family: 
+}
+</style>
+<body>
+  <div id="social">
+    <a class="twit" href="#" title="Twitter">Twitter</a>
+    <a class="fbook" href="#" title="Facebook">Facebook</a>
+    <a class="gplus" href="#" title="Google Plus">Google Plus</a>
+  </div>
+<!-- <div id="bg">
+  <img src="js/SNOW.jpg" alt="">
+</div> -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Ekhlas Rain</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Skills.html">Skills</a></li>
+      <li><a href="#">Another</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" id="currentBtn" class="button">Current</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" id="btnFav" class="button">Favourite</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6" id="result">
+
+  </div>
+  <div class="col-md-6" id="favourite" hidden="">
+    <ul>
+      <li>
+        <a href="https://github.com/EkhlasRain/js-jquery-prevent-default-lab-re-coded-000" target="_blank">js-jquery-prevent-default-lab-re-coded-000</a><br>
+
+        <li><a href="https://github.com/EkhlasRain/js-jquery-stop-propogation-lab-re-coded-000" target="_blank">js-jquery-stop-propogation-lab-re-coded-000</a><br></li>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/project.js"></script>
+</body>
+</html>

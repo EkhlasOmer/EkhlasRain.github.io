@@ -1,121 +1,56 @@
 	/*    B O D Y
------------------------------------*/
+  -----------------------------------*/
+  body{
+    background-size: 100%;
+    background-image: url("https://static.pexels.com/photos/242236/pexels-photo-242236.jpeg");
+
+
+  }
+
+
+  .heading{
+    font-family: 'Courgette', cursive;
+    color: #FFB03B;
+    font-size: 30px;
+    left: 600px;
+  }
   body{
   	background-size: 100%;
-  	background-image: url("https://static.pexels.com/photos/6374/flowers-desk-office-vintage.jpg");
+  	background-image: url("https://static.pexels.com/photos/313032/pexels-photo-313032.jpeg");
   }
-  #social{
-
-  }
-
-
-    
-/*    W R A P P E R
------------------------------------*/
-    #wrapper{
-        width: 800px;
-        margin: 20px auto; 
-    }
-/*    H E A D E R
------------------------------------*/
-
-/*    N A V B A R
------------------------------------*/
-	#myul{
-		width: auto;
-		height: 30px;
-		background-color: green;
-		margin: 0;
-		padding-top: 30px;
-		background-image: url("js/download.jpg");
-		background-position: 0 -100px;
-	}
-	#myul li{
-		display: inline;
-		float: right;
-		padding-right: 20px;
-		color: green;
-	}
-	#myul a{
-		text-decoration: none; 
-	}
-/*    C O N T E N T
------------------------------------*/
-	#content{
-		width: 800px;
-		height: 500px;
-		background-color: #F0F8FF;
-	}
-	#contentTxt{
-		margin: 0;
-		padding: 20px 0 0 20px;
-	}
-/*    F O O T E R
------------------------------------*/
-
-/*/////// SOCIAL ////////*/
-
-/*a.fbook{
-  background: url(../js/facebook.png) no-repeat;
-
-}
-a.twit{
-  background: url(../js/twitter.png) no-repeat;
-}
-
-a.gplus{
-	background: url(../js/google.png) no-repeat;
-}*/
-
-/*#social{
-  position: absolute;
-  top: 82px;
-  right: 4%;
-  width: auto;
-  margin-left: 50px;
-
-}
-#social a {
-  display: inline-block;
-}
+  
+  #social {
+    position: fixed;
+    top: 163px;
+    right: 20px;
+    width: 40px;
+    z-index: 2;
   }
 
-#social {
-  top: 72px;
-}*/
-/*/////// SOCIAL ////////*/
+  #social a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-#social {
-  position: fixed;
-  top: 163px;
-  right: 20px;
-  width: 40px;
-  z-index: 2;
-}
+  a.fbook, a.twit, a.gplus {
+    background: url(../images/social-icons.png) no-repeat;
+  }
 
-#social a {
-  display: block;
-  width: 40px;
-  height: 40px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
 
-a.fbook, a.twit, a.gplus {
-  background: url(../images/social-icons.png) no-repeat;
-}
+  a.fbook { background-position: 0 0; }
+  a.fbook:hover { background-position: -40px 0; }
+  a.fbook:active { background-position: -80px 0; }
 
-a.fbook { background-position: 0 0; }
-a.fbook:hover { background-position: -40px 0; }
-a.fbook:active { background-position: -80px 0; }
+  a.twit { background-position: 0 -40px; }
+  a.twit:hover { background-position: -40px -40px; }
+  a.twit:active { background-position: -80px -40px; }
 
-a.twit { background-position: 0 -40px; }
-a.twit:hover { background-position: -40px -40px; }
-a.twit:active { background-position: -80px -40px; }
-
-a.gplus { background-position: 0 -80px; }
-a.gplus:hover { background-position: -40px -80px; }
-a.gplus:active { background-position: -80px -80px; }
+  a.gplus { background-position: 0 -80px; }
+  a.gplus:hover { background-position: -40px -80px; }
+  a.gplus:active { background-position: -80px -80px; }
 
 
