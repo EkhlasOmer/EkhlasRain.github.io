@@ -9,7 +9,7 @@ body {
   background-image: url(https://static.pexels.com/photos/268438/pexels-photo-268438.jpeg);
 }
 h1{
-  font-family: 'Rochester', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   color: #333;
   padding-bottom: 30px;
@@ -110,14 +110,6 @@ iframe {
 }
 
 
-/*////////// BACKGROUNDS //////////*/
-
-
-
-
-
-
-/*/////// MEDIA ////////*/
 
 img{
   width: 50%; /* IE */
@@ -125,13 +117,6 @@ img{
   vertical-align: middle;
 }
 
-/*////////// FIXES //////////*/
-
-
-
-
-
-/*/////// LAYOUT ////////*/
 
 .wrapper {
   width: 960px;
