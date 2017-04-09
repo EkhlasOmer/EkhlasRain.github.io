@@ -6,7 +6,11 @@
 body {
   font-size: 100%;
   background-size: 100%;
-  background-image: url(https://static.pexels.com/photos/268438/pexels-photo-268438.jpeg);
+  background-repeat: no-repeat;
+  /*background-image: url(https://static.pexels.com/photos/268438/pexels-photo-268438.jpeg);*/
+  background: lightblue;
+
+
 }
 h1{
   font-family: 'Open Sans', sans-serif;
@@ -29,7 +33,7 @@ li {
 }
 
 p, address { 
-  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  font-size: 1.5em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
 

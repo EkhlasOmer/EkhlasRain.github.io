@@ -1,12 +1,14 @@
 	/*    B O D Y
   -----------------------------------*/
-  body{
+  /*body{
     background-size: 100%;
     background-image: url("https://static.pexels.com/photos/242236/pexels-photo-242236.jpeg");
-
+*/
 
   }
-
+.container-fluid{
+  background: #333;
+}
 
   .heading{
     font-family: 'Courgette', cursive;
@@ -16,8 +18,10 @@
   }
   body{
   	background-size: 100%;
-  	background-image: url("https://static.pexels.com/photos/313032/pexels-photo-313032.jpeg");
-  }
+  	/*background-image: url("https://static.pexels.com/photos/313032/pexels-photo-313032.jpeg");
+  }*/
+  background: #bfbfbf;
+}
   
   #social {
     position: fixed;
@@ -83,4 +87,8 @@
 }
 .fa-smile-o{
   color: yellow;
+}
+.fa-instagram {
+  background: #a94442; 
+  color: white;
 }
