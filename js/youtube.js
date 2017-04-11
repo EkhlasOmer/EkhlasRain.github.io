@@ -1,4 +1,4 @@
-var url='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=6&key=AIzaSyBILlvrvbX5Ni4dB5wbMDDDJBMPaA6btuA&playlistId=PLX98sAmndWt3Lpd8amPDUVVykEHMidOvr'
+var url='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&key=AIzaSyBILlvrvbX5Ni4dB5wbMDDDJBMPaA6btuA&playlistId=PLX98sAmndWt3Lpd8amPDUVVykEHMidOvr'
 
 
 $(document).ready(function(){
