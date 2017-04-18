@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Cool Website</title>
+	<title>Ekhlas Omer Website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -15,7 +15,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -36,10 +36,10 @@
 		</div>
 		<ul class="nav navbar-nav">
 			<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-			<li class="active"><a href="About.html">About</a></li>
-			<li><a href="Projects.html">Projects</a></li>
-			<li><a href="Skills.html">Skills</a></li>
-			<li><a href="Another.html">Another</a></li>
+			<li class="active"><a href="About.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About Me</a></li>
+			<li><a href="Projects.html"><i class="fa fa-laptop" aria-hidden="true"></i> Projects</a></li>
+			<li><a href="Skills.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Skills</a></li>
+			<li><a href="Another.html"><i class="fa fa-youtube-square" aria-hidden="true"></i> Another</a></li>
 		</ul>
 	</div>
 </nav>
@@ -48,12 +48,14 @@
 	h1 {
 		font-family: 'Pacifico', cursive;
 		font-size: 50px;
-		color: rgba(13, 182, 232, 0.72);
+		color: #777;
 		padding-bottom: 30px;
 	}
 	body{
 		background-image: url(.../images/Food.jpg);
 	}
+	.footer-social-icons i{font-size:240%;margin-right:10px;}
+	#icon_center{ display: inline-block;width: 300px; padding-right: 130px; }
 
 </style>
 <div class="wrapper clearfix">
@@ -115,18 +117,33 @@
 			<address>
 				Re:coded Training<br>
 				DRC Job Center<br>
-				Kasnazan,Erbil,Iraq<br>
+				<a href="https://www.google.iq/maps/place/Kasnazan/@36.2033236,44.1295157,14z/data=!3m1!4b1!4m5!3m4!1s0x4007272300586e77:0x8e0440ddd63c4939!8m2!3d36.2054296!4d44.1423025"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Kasnazan,Erbil,Iraq<br>
 			</address>
 		</div>
 
 		<div class="col-md-4 border-right">
 			<div class="col-1">
-				<h3>Follow Me on</h3>
-				<p>
-					<a href="https://github.com/EkhlasRain" target="_blank">Github</a><br>
-					<a href="https://www.facebook.com/ekhlas.rain.10" target="_blank">Facebook</a><br>
-					<a href="https://plus.google.com/u/0/100709118801416631821" target="_blank">Google Plus</a>
-				</p>
+				<h3>Follow</h3>
+				<div class="footer-social-icons">
+					<center id='icon_center'>
+						<a href="https://www.facebook.com">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="https://github.com/EkhlasRain">
+							<i class="fa fa-github"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/ekhlas-omer-656377131/">
+							<i class="fa fa-linkedin"></i>
+						</a>
+
+						<a href="https://mail.google.com">
+							<i class="fa fa-google-plus-official"></i>
+						</a>
+						<a href="https://www.whatsapp.com">
+							<i class="fa fa-whatsapp"></i>
+						</a>
+					</center>
+				</div>
 			</div>
 		</div><!-- .wrapper -->
 	</section>

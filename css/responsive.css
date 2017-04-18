@@ -8,9 +8,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   /*background-image: url(https://static.pexels.com/photos/268438/pexels-photo-268438.jpeg);*/
-  background: lightblue;
-
-
+  background: rgba(119, 119, 119, 0.53);
 }
 h1{
   font-family: 'Open Sans', sans-serif;
@@ -218,7 +216,4 @@ footer {
   padding: 10px;
   background: #eee;
   border-top: 1px solid; 
-}
-#git,{
-
 }
