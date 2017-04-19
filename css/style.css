@@ -5,7 +5,6 @@
 		background-size: 100%;
 		background-repeat: no-repeat;
 		/*background-image: url(https://static.pexels.com/photos/268438/pexels-photo-268438.jpeg);*/
-		background: rgba(119, 119, 119, 0.53);
 	}
 	
 	h1{
@@ -80,4 +79,3 @@
   }
   .footer-social-icons i{font-size:240%;margin-right:10px}
 
-  
